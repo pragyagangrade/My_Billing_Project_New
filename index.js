@@ -8,7 +8,7 @@ var ProductRoute = require('./routes/ProductRoute');
 var CategoryRoute = require('./routes/CategoryRoute');
 
 // Setup DB Connection
-require('./database/dbconnection');
+require('./database/dbconnection');    
 
 // view engine setup
 app.set('views', path.join(__dirname, './views'));
